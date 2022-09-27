@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tugas5PrakMobile</string>
+    <string name="forgotpw">Forgot Password</string>
+    <string name="username">Username</string>
+    <string name="send">Send Request</string>
+    <string name="welcomeb">Welcome Back</string>
+    <string name="resetp">Reset Password</string>
+    <string name="resetcd">Reset Code</string>
+    <string name="newpwd">New Password</string>
+    <string name="confpwd">Confirm Password</string>
+    <string name="changepw"> CHANGE PASSWORD</string>
+    <string name="sukses">Succesful!</string>
+    <string name="wback">Welcome Back</string>
+    <string name="wcb_signin">Sign in to continue</string>
+    <string name="pw">Password</string>
+</resources>

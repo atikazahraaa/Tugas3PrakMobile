@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".WelcomeActivity">
+
+	<TextView
+		android:id="@+id/wcback"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/wback"
+		android:fontFamily="@font/montserrat_semi_bold"
+		android:textSize="32sp"
+		android:textColor="#313131"
+		android:layout_marginLeft="24dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="90dp">
+	</TextView>
+
+	<TextView
+		android:id="@+id/wb_signin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/wcb_signin"
+		android:fontFamily="@font/montserrat_light"
+		android:textColor="#9b9b9b"
+		android:textSize="16sp"
+		android:layout_marginLeft="24dp"
+		android:layout_marginTop="8dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/wcback">
+	</TextView>
+
+	<TextView
+		android:id="@+id/wb_resetcd"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/username"
+		android:textColor="#313131"
+		android:textSize="20sp"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="48dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/wb_signin">
+	</TextView>
+
+	<EditText
+		android:id="@+id/edt_resetcd"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Enter your email"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="24dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/wb_resetcd">
+	</EditText>
+
+	<TextView
+		android:id="@+id/wb_pw"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/pw"
+		android:textColor="#313131"
+		android:textSize="20sp"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="8dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/edt_resetcd">
+	</TextView>
+
+	<EditText
+		android:id="@+id/edt_pw"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Enter your password"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="24dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/wb_pw">
+	</EditText>
+
+	<TextView
+		android:id="@+id/wb_forgot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Forgot Password"
+		android:textColor="#313131"
+		android:textSize="18sp"
+		android:layout_marginEnd="24dp"
+		android:layout_marginTop="8dp"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/edt_pw">
+	</TextView>
+
+	<android.widget.Button
+		android:id="@+id/btLogin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="24dp"
+		android:layout_marginEnd="24dp"
+		android:layout_marginBottom="200dp"
+		android:layout_marginTop="80dp"
+		android:text="LOG IN"
+		android:background="@drawable/button_red"
+		android:textColor="#FFFFFF"
+		android:textSize="18sp"
+		app:layout_constraintTop_toBottomOf="@id/wb_forgot"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent">
+	</android.widget.Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
